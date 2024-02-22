@@ -1,0 +1,190 @@
+/* .btn {
+  @apply p-3 text-white  border-none hover:opacity-90;
+}
+
+.input {
+  @apply border-[1px] border-black outline-none p-3 w-[80%];
+} */
+
+.Outlet {
+  background-color: rgb(226, 218, 218);
+}
+.nav.active {
+  border-bottom: 2px solid purple;
+}
+.navfaqs.active {
+  border-bottom: 2px solid white;
+}
+
+.navCart.active {
+  height: 31px;
+  width: 60px;
+  border-bottom: 2px solid purple;
+  background-color: rgb(156 163 175);
+}
+
+.div2 {
+  height: 70vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  position: relative;
+  background-color: white;
+}
+
+.square {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 200px solid brown;
+  border-right: 0px solid yellow;
+  border-left: 116px solid brown;
+  border-bottom: 0px solid brown;
+}
+.shape {
+  height: 48vh;
+  width: 17vw;
+  border: 1px solid brown;
+  border-radius: 0px 0px 250px 250px;
+  transform: rotate(60.2deg);
+  position: absolute;
+  left: 71.5%;
+  top: 4.8%;
+  background-color: brown;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* border-top: 110px solid brown;
+  border-right: 0px solid brown;
+  border-left: 100px solid brown;
+  border-bottom: 57px solid transparent; */
+
+.divCone {
+  height: 25vh;
+  width: 15vw;
+  /* border: 1px solid black; */
+  border-radius: 0px 0px 200px 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: brown;
+}
+
+.imgBigCan {
+  width: 300px;
+  height: 150px;
+  transform: rotate(300deg);
+  position: absolute;
+  right: 7%;
+  top: 12%;
+}
+.divCircle {
+  height: 20vh;
+  width: 10vw;
+  border: 3px dashed white;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 26%;
+  top: 27%;
+  z-index: 1;
+}
+
+.plusDiv {
+  height: 10vh;
+  width: 5vw;
+  /* border: 1px solid black; */
+  position: absolute;
+  right: 17%;
+  top: 5%;
+  z-index: 1;
+}
+
+/* .div3 {
+  height: 65vh;
+  width: 70vw;
+  border: 1px solid black;
+} */
+
+.x1,
+.x2 {
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+.x1 {
+  left: -10%;
+  bottom: -17%;
+  color: brown;
+}
+
+.x2 {
+  left: 75%;
+  bottom: -35%;
+  transform: rotate(90deg);
+}
+.btnShopNow {
+  border: 3px solid brown;
+  border-radius: 1.9rem;
+}
+.shopArrow {
+  color: brown;
+}
+
+.figcaptionDiv {
+  top: 109px;
+}
+
+.footer1Div2 {
+  height: 21vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+
+  /* border: 1px solid black; */
+}
+
+.footer2SubDivs {
+  height: 18vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer2Para {
+  /* line-height: 20px; */
+  height: 12vh;
+  /* border: 1px solid black; */
+  font-size: small;
+}
+
+.Belts {
+  background-color: rgb(226, 218, 218);
+}
+
+.littleBelt {
+  background-color: rgb(236, 230, 230);
+}
+
+.Cart {
+  background-color: rgb(236, 230, 230);
+}
+
+.smallCartDiv {
+  background-color: rgb(236, 230, 230);
+}
+
+.CartFigCaption {
+  top: 192px;
+}
